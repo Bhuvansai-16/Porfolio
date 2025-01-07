@@ -21,9 +21,9 @@ const projects = [
       {
         title: 'AI Agent Dashboard',
         description:
-          'AI agent that reads through a dataset (CSV or Google Sheets) and performs a web search to retrieve specific information for each entity in a chosen column',
-        tech: ['Python', 'streamlit', 'Gemini', 'Google Sheets API', 'Google Search API'],
-        github: 'https://github.com/Bhuvansai-16/sign-board-detection',
+          'AI agent that reads through a dataset CSV or Google Sheets and performs a web search to retrieve specific information for each entity',
+        tech: ['Python', 'Gemini', 'Google Sheets API', 'Google Search API'],
+        github: 'https://github.com/Bhuvansai-16/Ai_agent_.git',
       },
     ],
   },
