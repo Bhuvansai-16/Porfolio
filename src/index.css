@@ -43,7 +43,7 @@ nav {
   justify-content: center; /* Center the links */
   align-items: center;
   z-index: 1000; /* Keep navbar on top of other elements */
-  background-image: url(src\image3.jpg);
+  background-image: url(image3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Fira Code, Monaco, Consolas, Ubuntu Mono, monospace;
@@ -84,7 +84,7 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-image: url(.\src\image3.jpg);
+  background-image: url(image3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -105,7 +105,7 @@ h1 {
 #about {
   display: flex;
   flex-direction: column; /* Stack the cards vertically */
-  background-image: url(.\src\image3.jpg);
+  background-image: url(image3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -150,7 +150,7 @@ h1 {
   }
 }
 #projects {
-  background-image: url(.\src\image3.jpg);
+  background-image: url(image3.jpg);
   padding: 3rem 1rem;
   background-color: transparent;
   color: white;
@@ -306,7 +306,7 @@ h1 {
   transform: translateX(-50%) scale(1);
 }
 #contact{
-  background-image: url(.\src\image3.jpg);
+  background-image: url(image3.jpg);
   padding:20px;
   width: 100%;
   height: 100vh;
