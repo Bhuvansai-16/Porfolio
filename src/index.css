@@ -43,7 +43,7 @@ nav {
   justify-content: center; /* Center the links */
   align-items: center;
   z-index: 1000; /* Keep navbar on top of other elements */
-  background-image: url("src/image3.jpg");
+  background-image: url(C:\Users\Bhuvansai\OneDrive\Documents\Projects\Portfolio\portfolio\src\image3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Fira Code, Monaco, Consolas, Ubuntu Mono, monospace;
@@ -84,7 +84,7 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-image: url(image3.jpg);
+  background-image: url(C:\Users\Bhuvansai\OneDrive\Documents\Projects\Portfolio\portfolio\src\image3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -105,7 +105,7 @@ h1 {
 #about {
   display: flex;
   flex-direction: column; /* Stack the cards vertically */
-  background-image: url(image3.jpg);
+  background-image: url(C:\Users\Bhuvansai\OneDrive\Documents\Projects\Portfolio\portfolio\src\image3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -150,7 +150,7 @@ h1 {
   }
 }
 #projects {
-  background-image: url(image3.jpg);
+  background-image: url(C:\Users\Bhuvansai\OneDrive\Documents\Projects\Portfolio\portfolio\src\image3.jpg);
   padding: 3rem 1rem;
   background-color: transparent;
   color: white;
@@ -306,7 +306,7 @@ h1 {
   transform: translateX(-50%) scale(1);
 }
 #contact{
-  background-image: url(image3.jpg);
+  background-image: url(C:\Users\Bhuvansai\OneDrive\Documents\Projects\Portfolio\portfolio\src\image3.jpg);
   padding:20px;
   width: 100%;
   height: 100vh;
@@ -1148,5 +1148,331 @@ body {
 @media (max-width: 480px) {
   #games{
     width: 100%;
+  }
+}
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+  .hamburger {
+    display: block; /* Show the hamburger icon */
+  }
+  .nav-menu {
+    display: none;
+  }
+
+  /* General Adjustments */
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+  section {
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 2rem; /* Smaller font size for headings */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem; /* Smaller font size for paragraphs */
+  }
+
+  /* Navbar */
+  nav {
+    padding: 0.5rem; /* Reduce padding */
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack navbar links vertically */
+    align-items: center;
+  }
+
+  nav li {
+    margin: 0.5rem 0; /* Reduce margin between links */
+  }
+
+  nav a {
+    font-size: 1rem; /* Smaller font size for links */
+  }
+
+  /* Home Section */
+  #home {
+    padding: 1rem;
+  }
+
+  #home img {
+    width: 120px; /* Smaller image size */
+    height: 120px;
+  }
+
+  #home h1 {
+    font-size: 1.8rem; /* Adjust heading size */
+  }
+
+  #home p {
+    font-size: 1rem; /* Adjust paragraph size */
+  }
+
+  /* About Section */
+  #about {
+    padding: 1rem;
+  }
+
+  .about-skills {
+    flex-direction: column; /* Stack skill categories vertically */
+  }
+
+  .skill-category {
+    width: 100%; /* Full width for skill cards */
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .skill-category h3 {
+    font-size: 1.2rem; /* Smaller heading size */
+  }
+
+  .skill-category li {
+    font-size: 0.9rem; /* Smaller list item size */
+  }
+
+  /* Projects Section */
+  #projects {
+    padding: 1rem;
+  }
+
+  .project-card {
+    width: 100%; /* Full width for project cards */
+    padding: 1rem; /* Reduce padding */
+    margin: 0.5rem 0; /* Reduce margin */
+  }
+
+  .project-title {
+    font-size: 1.2rem; /* Smaller title size */
+  }
+
+  .project-description {
+    font-size: 0.9rem; /* Smaller description size */
+  }
+
+  .tech-tag {
+    font-size: 0.8rem; /* Smaller tech tag size */
+    padding: 8px; /* Reduce padding */
+  }
+
+  /* Contact Section */
+  #contact {
+    padding: 1rem;
+  }
+
+  .contact-form {
+    width: 90%; /* Slightly smaller form width */
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .contact-input,
+  .contact-textarea {
+    font-size: 0.9rem; /* Smaller input font size */
+  }
+
+  .contact-button {
+    font-size: 1rem; /* Smaller button font size */
+    padding: 0.5rem 1rem; /* Reduce padding */
+  }
+
+  .social-links {
+    flex-direction: column; /* Stack social links vertically */
+    gap: 1rem; /* Reduce gap between links */
+  }
+
+  .social-link img {
+    width: 40px; /* Smaller icon size */
+    height: 40px;
+  }
+
+  /* Games Section */
+  #games {
+    padding: 1rem;
+  }
+
+  .game-card {
+    width: 100%; /* Full width for game cards */
+    padding: 1rem; /* Reduce padding */
+    margin: 0.5rem 0; /* Reduce margin */
+  }
+
+  .game-title {
+    font-size: 1rem; /* Smaller title size */
+  }
+
+  .game-link {
+    font-size: 0.9rem; /* Smaller link size */
+    padding: 0.5rem 1rem; /* Reduce padding */
+  }
+}
+.hamburger {
+  display: none; /* Hidden by default */
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  left: 20px; /* Position on the left side */
+}
+
+/* Navbar Links */
+.nav-menu {
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 50px;/* Full width of the screen */
+  display: flex;
+  justify-content: center; /* Center the links */
+  align-items: center;
+}
+
+.nav-menu li {
+  margin: 0 1.5rem;
+}
+
+.nav-menu a {
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+  body{
+    padding-top: 20px;
+  }
+  .hamburger {
+    display: block;
+     /* Show hamburger menu */
+  }
+
+  .nav-menu {
+    display: none; /* Hide navbar links by default */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust based on navbar height */
+    width: 100%;
+    background-color: #333;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-menu.open {
+    display: flex; /* Show navbar links when menu is open */
+  }
+
+  .nav-menu li {
+    margin: 0.5rem 0; /* Reduce margin between links */
+  }
+}
+
+/* Navbar Wrapper */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Hamburger Icon (Visible Only in Mobile) */
+.hamburger {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  display: none; /* Hidden by default */
+}
+
+/* Navbar Links */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav-menu li {
+  margin: 0 1.5rem;
+}
+
+.nav-menu a {
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+  color: #1e90ff; /* Highlight color for links */
+}
+
+/* Responsive: Mobile View */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show hamburger only on mobile */
+  }
+  /* Remove default margin and padding from body */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Ensure the nav starts flush at the top */
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+/* For the home section (adjust if necessary) */
+#home {
+  margin: 0;
+  padding: 0;
+}
+
+
+  .nav-menu {
+    display: none; /* Completely hide navbar links in mobile */
+    flex-direction: column;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black */
+    width: 100%; /* Full-width dropdown */
+    height: calc(100vh - 60px); /* Take full screen below navbar */
+    padding-top: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    overflow-y: auto;
+  }
+
+  .nav-menu.open {
+    display: flex; /* Show the nav links when toggled */
+  }
+
+  .nav-menu li {
+    margin: 10px 0; /* Space out links */
+    text-align: center;
   }
 }
