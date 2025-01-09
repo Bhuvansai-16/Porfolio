@@ -38,7 +38,7 @@ function Contact() {
           GitHub
           <img src="https://img.icons8.com/material-outlined/48/FFFFFF/github.png" alt="GitHub" />
         </Link>
-        <Link to="#" onClick={() => window.open("Porfolio/CVResume.pdf", "_blank", "noopener,noreferrer")} className="social-link">
+        <Link to="#" onClick={() => window.open("https://drive.google.com/drive/folders/1tpLwquJ_Wey0bPuzbFFd-t3Dgk2C_lwj", "_blank", "noopener,noreferrer")} className="social-link">
           Resume
           <img src="https://img.icons8.com/ios-filled/50/FFFFFF/open-resume.png" alt="Resume" />
         </Link>
