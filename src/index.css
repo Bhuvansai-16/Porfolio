@@ -43,7 +43,7 @@ nav {
   justify-content: center; /* Center the links */
   align-items: center;
   z-index: 1000; /* Keep navbar on top of other elements */
-  background-image: url("https://t4.ftcdn.net/jpg/02/81/85/27/360_F_281852727_A4ThCn8oRJaq4l4YsAMBl28P3psm5iE5.jpg");
+  background-image: url(https://t4.ftcdn.net/jpg/02/81/85/27/360_F_281852727_A4ThCn8oRJaq4l4YsAMBl28P3psm5iE5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Fira Code, Monaco, Consolas, Ubuntu Mono, monospace;
