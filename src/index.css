@@ -1367,6 +1367,7 @@ body {
   }
   .home-content{
     padding-top: 10rem;
+    font-family: Fira Code, Monaco, Consolas, Ubuntu Mono, monospace;
   }
 
   .nav-menu {
