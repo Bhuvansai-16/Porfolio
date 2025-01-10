@@ -1365,6 +1365,9 @@ body {
     flex-direction: row; /* Stack social links vertically */
     gap: 0.5rem; /* Reduce gap between links */
   }
+  .home-content{
+    padding-top: 10rem;
+  }
 
   .nav-menu {
     display: none; /* Hide navbar links by default */
