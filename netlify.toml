@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build" # Adjust this to your actual build command
+  publish = "dist" # Adjust this to your build output directory
+  functions = "functions" # Optional: if you're using serverless functions
+
+[build.environment]
+  NETLIFY_USE_YARN = "true" # Use this if you’re using Yarn for faster installs
+
+[build.cache]
+  paths = ["node_modules/**"]
