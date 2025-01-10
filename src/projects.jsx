@@ -21,7 +21,7 @@ const projects = [
         description:
           'AI agent that reads through a dataset CSV or Google Sheets and performs a web search to retrieve specific information for each entity',
         tech: ['Python', 'Gemini', 'Google Sheets API', 'Google Search API'],
-        github: '',
+        github: 'https://github.com/Bhuvansai-16/Ai_agent_.git',
       },
     ],
   },
