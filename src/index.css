@@ -1361,6 +1361,10 @@ body {
     display: block;
      /* Show hamburger menu */
   }
+  .social-links {
+    flex-direction: row; /* Stack social links vertically */
+    gap: 0.5rem; /* Reduce gap between links */
+  }
 
   .nav-menu {
     display: none; /* Hide navbar links by default */
