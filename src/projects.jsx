@@ -1,5 +1,3 @@
-
-
 const projects = [
   {
     category: 'AI/ML Projects',
