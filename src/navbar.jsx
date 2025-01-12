@@ -36,11 +36,6 @@ function Navbar() {
             Contact
           </Link>
         </li>
-        <li>
-          <Link to="/games" onClick={() => setMenuOpen(false)}>
-            Games
-          </Link>
-        </li>
       </ul>
     </nav>
   );
