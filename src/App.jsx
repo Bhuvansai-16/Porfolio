@@ -6,7 +6,6 @@ import Home from './Home';
 import About from './About';
 import Projects from './projects';
 import Contact from './Contact';
-import Games from './Games';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/games" element={<Games />} />
             </Routes>
           </Suspense>
         </main>
