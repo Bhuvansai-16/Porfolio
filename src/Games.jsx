@@ -4,7 +4,7 @@ const games = [
   {
     id: 1,
     title: 'Game 1',
-    imageUrl: './src/game1.png',
+    imageUrl: '/game1.png',
     link: 'https://kzmov5xo2b0w0jqu7sde.lite.vusercontent.net/'
   }
   // Add more games as needed
