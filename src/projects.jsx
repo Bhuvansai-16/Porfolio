@@ -8,6 +8,7 @@ const projects = [
           'A machine learning model that classifies Iris flowers based on sepal and petal measurements.',
         tech: ['Python', 'scikit-learn', 'Pandas'],
         github: 'https://github.com/Bhuvansai-16/iris-classification',
+        demo:"https://varikuntlasaimanoj.github.io/FLORA-ID/MAIN.html"
       },
       {
         title: 'Sign Board Detection',
@@ -34,7 +35,7 @@ const projects = [
           'A responsive Netflix clone built with modern web technologies.',
         tech: ['React', 'CSS', 'JavaScript'],
         github: 'https://github.com/Bhuvansai-16/netflix-clone',
-        demo: 'https://netflix-clone-demo.netlify.app',
+        demo: 'https://celebrated-licorice-1e9237.netlify.app/#',
       },
       {
         title: 'Weather Application',
