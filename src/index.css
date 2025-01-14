@@ -1553,7 +1553,7 @@ nav {
 
 /* Active Link */
 .nav-menu a.active {
-  color: #007bff; /* Highlight color for active link */
+  color: transparent; /* Highlight color for active link */
   font-weight: bold;
 }
 
