@@ -1564,18 +1564,17 @@ nav {
   }
 
   .nav-menu {
-    position: fixed;
+    display: flex;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     z-index: 999;
+    border-radius: 25px;
   }
 
   .nav-menu.open {
@@ -1583,7 +1582,7 @@ nav {
   }
 
   .nav-menu li {
-    margin: 1.5rem 0;
+    margin: 1.5em 0;
   }
 
   .nav-menu a {
