@@ -1432,7 +1432,7 @@ nav {
 }
 
 .nav-menu a:hover {
-  color: #1e90ff; /* Highlight color for links */
+  color: transparent; /* Highlight color for links */
 }
 
 /* Responsive: Mobile View */
