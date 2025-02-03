@@ -1,4 +1,4 @@
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './navbar'; // Ensure Navbar is imported
@@ -21,6 +21,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </Suspense>
+          <SpeedInsights/>
         </main>
       </div>
     </Router>
