@@ -3,18 +3,18 @@ const projects = [
     category: 'AI/ML Projects',
     items: [
       {
-  title: 'Linguista - NLP Chatbot',
+  title: 'Linguista - Your Ultimate NLP bot',
   description:
     'An educational NLP chatbot that performs various NLP tasks using NLTK and spaCy, including sentiment analysis, tokenization, POS tagging, and more.',
   tech: ['Python', 'FastAPI', 'spaCy', 'NLTK', 'HTML/CSS'],
-  github: 'https://github.com/your-username/linguista-nlp-chatbot',
+  github: 'https://github.com/Bhuvansai-16/Linguista.git',
 },
 {
   title: 'AI Grammar Checker',
   description:
     'A real-time grammar correction tool that detects and corrects grammatical errors in user-submitted text using deep learning and NLP techniques.',
   tech: ['Node.js', 'Express', 'JavaScript', 'NLP', 'Deep Learning'],
-  github: 'https://github.com/your-username/grammar-checker',
+  github: 'https://github.com/Bhuvansai-16/Grammar_Checker.git',
 }
 ,
       {
