@@ -107,7 +107,6 @@ function Contact() {
 >
           Resume
           <img src="https://img.icons8.com/ios-filled/50/FFFFFF/open-resume.png" alt="Resume" />
-        </Link>
       </div>
     </section>
   );
