@@ -100,13 +100,14 @@ function Contact() {
           GitHub
           <img src="https://img.icons8.com/material-outlined/48/FFFFFF/github.png" alt="GitHub" />
         </Link>
-        <a
-  href="/Bhuvansai_Resume.pdf"
-  download="Bhuvansai_Resume.pdf"
-  className="social-link"
->
+         <Link
+          to="#"
+          onClick={() => window.open(" https://github.com/Bhuvansai-16/Porfolio/blob/main/Bhuvansai_Resume.pdf", "_blank", "noopener,noreferrer")}
+          className="social-link"
+        >
           Resume
           <img src="https://img.icons8.com/ios-filled/50/FFFFFF/open-resume.png" alt="Resume" />
+      </Link>
       </div>
     </section>
   );
