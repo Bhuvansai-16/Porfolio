@@ -23,7 +23,7 @@ const projects = [
           'A machine learning model that classifies Iris flowers based on sepal and petal measurements.',
         tech: ['Python', 'scikit-learn', 'Pandas'],
         github: 'https://github.com/Bhuvansai-16/iris-classification',
-        demo:"https://varikuntlasaimanoj.github.io/FLORA-ID/MAIN.html"
+        demo: "https://varikuntlasaimanoj.github.io/FLORA-ID/MAIN.html"
       },
       {
         title: 'Sign Board Detection',
@@ -31,6 +31,14 @@ const projects = [
           'Deep learning model for real-time sign board detection using OpenCV and TensorFlow.',
         tech: ['Python', 'TensorFlow', 'OpenCV'],
         github: 'https://github.com/Bhuvansai-16/sign-board-detection',
+      },
+         {
+        title: 'Heart Disease Prediction',
+        description:
+          ' Built an intuitive Streamlit UI for data input and results Trained a Random Forest classifier for prediction(13 parameters) Integrated SQLite to store user prediction history Implemented PDF report download with input summary and suggestions Designed an Admin dashboard to manage user insights',
+        tech: ['Python', 'scikit-learn', 'Pandas', 'Streamlit', 'SQLite'],
+        github: 'https://github.com/Bhuvansai-16/HeartDiseaseprediction',
+        demo: "https://heart-disease-predicter-dfwa4lfqwfccvpyd3h6s.streamlit.app/"
       },
       {
         title: 'AI Agent Dashboard',
