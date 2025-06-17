@@ -102,7 +102,7 @@ function Contact() {
         </Link>
         <Link
           to="#"
-          onClick={() => window.open("/Bhuvansai_Resume.pdf", "_blank", "noopener,noreferrer")}
+          onClick={() => window.open("Portfolio/Bhuvansai_Resume.pdf", "_blank", "noopener,noreferrer")}
           className="social-link"
         >
           Resume
