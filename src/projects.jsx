@@ -35,7 +35,7 @@ const projects = [
          {
         title: 'Heart Disease Prediction',
         description:
-          ' Built an intuitive Streamlit UI for data input and results Trained a Random Forest classifier for prediction(13 parameters) Integrated SQLite to store user prediction history Implemented PDF report download with input summary and suggestions Designed an Admin dashboard to manage user insights',
+          ' Built an intuitive Streamlit UI for data input and results.Trained a Random Forest classifier for prediction(13 parameters).Integrated SQLite to store user prediction history with input summary and suggestions.Designed an Admin dashboard to manage user insights',
         tech: ['Python', 'scikit-learn', 'Pandas', 'Streamlit', 'SQLite'],
         github: 'https://github.com/Bhuvansai-16/HeartDiseaseprediction',
         demo: "https://heart-disease-predicter-dfwa4lfqwfccvpyd3h6s.streamlit.app/"
@@ -63,7 +63,7 @@ const projects = [
       {
         title: 'Weather Application',
         description:
-          'Real-time weather application using OpenWeather API.',
+          'Real-time weather application using OpenWeather API..',
         tech: ['JavaScript', 'API', 'CSS'],
         github: 'https://github.com/Bhuvansai-16/weather-app',
         demo: 'https://weather-app-demo.netlify.app',
